@@ -1,5 +1,5 @@
 import { Children } from 'react';
-import Header from './Header';
+import Header from '~/components/Layout/components/Header';
 
 function HeaderOnly({ children }) {
   return (
