@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTimesCircle, faSpinner, faSearch } from "@fortawesome/free-solid-svg-icons";
 import Tippy from '@tippyjs/react/headless';
 
+import Button from "~/components/Button";
 import styles from "./Header.module.scss";
 import images from '~/assets/images'
 import { useEffect, useState } from "react";
@@ -59,7 +60,7 @@ function Header() {
         </Tippy>
 
         <div className={cx('action')}>
-
+            <Button onClick={()=> alert('Hekllo')} >Log In</Button>
         </div>
       </div>
     </header>
